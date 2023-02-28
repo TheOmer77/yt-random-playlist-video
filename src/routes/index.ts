@@ -1,9 +1,10 @@
 import { Router } from 'express';
 
-import { root } from 'controllers';
+import { randomPlaylistVid, root } from 'controllers';
 
 const router = Router();
 
 router.get('/', root);
+router.get('/:id', randomPlaylistVid);
 
 export default router;
