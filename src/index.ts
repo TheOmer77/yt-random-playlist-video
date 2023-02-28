@@ -14,4 +14,6 @@ app.use(express.json());
 app.use(cors());
 app.use(router);
 
+// TODO: Error handler
+
 app.listen(PORT, () => console.info(`Backend is running on port ${PORT}.`));

@@ -6,6 +6,7 @@ import { getPlaylistItems } from 'apis/youtube';
 import { VIDEO_BASE_URL } from 'constants/youtube';
 
 export const root: RequestHandler = (req, res) => {
+  // TODO: "How to use this API" page
   res.send({ success: true, message: 'Hello world!' });
 };
 
